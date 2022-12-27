@@ -1,0 +1,254 @@
+/* This media query is only for Home Screen page */
+
+
+/* This is for Laptop or Desktop Media Query */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    background-color: yellowgreen;
+  }
+  .navigation {
+    display: block;
+  }
+  #hamburger {
+    display: none;
+  }
+  
+}
+
+/* Large Mobile phones Media Query  */
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .navigation {
+    display: none;
+    height: auto;
+  }
+
+  .navigation nav {
+    padding: 30px 0;
+    text-align: center;
+  }
+  #hamburger {
+    display: block;
+  }
+  #cross {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+  .infoContainer {
+    background-color: rgb(42, 22, 22);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .devInfo {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+  }
+
+  .hello {
+    margin: 46px 12px;
+    display: block;
+  }
+  .hello_intro {
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+  }
+  .hello_name {
+    font-size: 25px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .hello_about {
+    font-size: 18px;
+    color: white;
+  }
+  .hello_moreAbout {
+    font-size: 20px;
+  }
+
+  .devPic img {
+    width: 100%;
+    height: auto;
+    padding: 20% 25%;
+    position: absolute;
+    top: 22%;
+    margin-left: -56%;
+  }
+  .info_btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 92% 10%;
+  }
+}
+
+@media (max-width:768px)
+{
+    .navigation {
+        display: none;
+        height: auto;
+      }
+    
+      .navigation nav {
+        padding: 30px 0;
+        text-align: center;
+      }
+      #hamburger {
+        display: block;
+      }
+      #cross {
+        display: none;
+      }
+    
+      .main {
+        width: 100%;
+      }
+      .infoContainer {
+        background-color: rgb(42, 22, 22);
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .devInfo {
+        display: block;
+        margin: 10px auto;
+        position: relative;
+      }
+    
+      .hello {
+        margin: 46px 12px;
+        display: block;
+      }
+      .hello_intro {
+        font-size: 40px;
+        font-weight: bold;
+        color: grey;
+      }
+      .hello_name {
+        font-size: 25px;
+        font-weight: bold;
+        color: darkblue;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .hello_about {
+        font-size: 18px;
+        color: white;
+      }
+      .hello_moreAbout {
+        font-size: 20px;
+      }
+    
+      .devPic img {
+        width: 100%;
+        height: auto;
+        padding: 20% 25%;
+        position: absolute;
+        top: 22%;
+        margin-left: -56%;
+      }
+      .info_btns {
+        display: flex;
+        justify-content: space-between;
+        margin: 92% 10%;
+      }
+}
+/* Just for buttons, I use this media query here. */
+
+@media (max-width: 600px) {
+  .hello {
+    margin: 45px 16px;
+  }
+
+  .info_btns {
+    display: flex;
+    flex-direction: column;
+    margin: 97% 23%;
+  }
+
+  .info_btns button {
+    width: 170px;
+    height: 45px;
+  }
+}
+
+/* Small Mobile phones Media Query */
+
+@media (max-width: 425px) {
+  .navigation {
+    display: none;
+    height: auto;
+  }
+
+  .navigation nav {
+    text-align: center;
+  }
+
+  .navigation nav li {
+    list-style: none;
+    padding: 26px 0;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #hamburger {
+    display: block;
+  }
+  #cross {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+  .infoContainer {
+    background-color: rgb(240, 169, 169);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .devInfo
+{
+    display: block;
+    margin: 15px auto;
+    position: relative;
+} */
+
+  .hello {
+    display: block;
+    margin: 40px 6px;
+  }
+  .hello_intro {
+    font-size: 28px;
+  }
+  .hello_name {
+    font-size: 18px;
+  }
+  .hello_about {
+    font-size: 15px;
+  }
+  .hello_moreAbout {
+    font-size: 14px;
+  }
+
+  .info_btns {
+    display: flex;
+    flex-direction: column;
+    margin: 100% 10%;
+  }
+
+  .info_btns button {
+    width: 160px;
+    height: 40px;
+  }
+}
